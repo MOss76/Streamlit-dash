@@ -45,10 +45,7 @@ with st.sidebar:
     # Logo
     col1, col2, col3 = st.columns([1,2,1])
             with st.sidebar:
-    # Logo
-    col1, col2, col3 = st.columns([1,2,1])
-    with col2:
-        st.imagest.image("https://www.aiviewgroup.com/assets/img/logo/logo_ai-solutions.jpg", width=550)
+            st.imagest.image("https://www.aiviewgroup.com/assets/img/logo/logo_ai-solutions.jpg", width=550)
     
 
 
