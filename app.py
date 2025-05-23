@@ -44,6 +44,11 @@ data = load_data()
 with st.sidebar:
     # Logo
     col1, col2, col3 = st.columns([1,2,1])
+            with st.sidebar:
+    # Logo
+    col1, col2, col3 = st.columns([1,2,1])
+    with col2:
+        st.image("logo.jpg", width=550)
     
 
 
