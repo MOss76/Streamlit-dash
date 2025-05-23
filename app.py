@@ -44,7 +44,7 @@ data = load_data()
 with st.sidebar:
     # Logo
     col1, col2, col3 = st.columns([1,2,1])
-            with st.sidebar:
+    with st.sidebar:
                 st.image("https://www.aiviewgroup.com/assets/img/logo/logo_ai-solutions.jpg", width=550)
     
 
