@@ -45,7 +45,8 @@ with st.sidebar:
     # Logo
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
-        st.image("C:/Users/bida21-125/Documents/Projects/streamlit_dash/logo.jpg", width=550)
+        st.image("images/logo.jpg", width=550)
+
 
     # Navigation menu
  
